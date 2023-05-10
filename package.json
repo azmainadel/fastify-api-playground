@@ -1,0 +1,36 @@
+{
+  "name": "fastify-api-playground",
+  "version": "1.0.0",
+  "description": "Fastify API Demo Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azmainadel/fastify-api-playground.git"
+  },
+  "keywords": [
+    "fastify",
+    "api",
+    "demo",
+    "backend",
+    "nodejs"
+  ],
+  "author": "Azmain Adel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azmainadel/fastify-api-playground/issues"
+  },
+  "homepage": "https://github.com/azmainadel/fastify-api-playground#readme",
+  "dependencies": {
+    "fastify": "^4.17.0",
+    "fastify-swagger": "^5.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
