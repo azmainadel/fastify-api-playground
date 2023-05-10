@@ -1,2 +1,0 @@
-### Get all stories
-GET http://localhost:3000/stories HTTP/1.1

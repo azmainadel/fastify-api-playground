@@ -1,13 +1,11 @@
-const fastify = require('fastify')({logger: true})
+const fastify = require('fastify')({ logger: true })
+const { storyRoutes } = require('./routes/story.route')
+
 const serverOptions = {
     port: 3000,
 }
 
-fastify.get('/stories', (req, reply) => {
-    reply.send({
-        message: 'Hello, World!'
-    })
-})
+fastify.register(storyRoutes)
 
 const start = async () => {
     try {
@@ -18,5 +16,5 @@ const start = async () => {
     }
 }
 
-start()
+start() 
 
